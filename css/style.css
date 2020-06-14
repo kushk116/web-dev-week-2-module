@@ -1,10 +1,13 @@
-*{	box-sizing: border-box; }
+*{	box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+  }
 h1{
 	font-family: Arial, Helvetica;
 	color: #000000;
 	text-align: center;
 }
-body{ background-color: #D6EAF8;
+body{ font-family: 'Lato',sans-serif;
      }
 
 p {	padding: 10px;
@@ -18,19 +21,19 @@ p {	padding: 10px;
 	padding: 10px;
 }
 section {
-	border:	2px solid blue;
-	background-color: #CCD1D1;
+	border:	2px solid black;
+	background-color: #999999;
 	width: 100%;
-	height: 250px;
-	font-family: Georgia,sans-serif;
+	height: 200px;
+	font-family: Arial;
 	color: black;
 	position: relative;
 	overflow: auto;
 }
 #dish1{
   padding: 5px;
-  background-color: #ABEBC6;
-	border: 2px solid blue;
+  background-color: #D59898;
+	border: 1px solid black;
 	text-align: center;
 	width: 30%;
   margin-bottom: 0;
@@ -43,8 +46,8 @@ section {
 
 #dish2{
 	padding: 5px;
-  background-color: #ABEBC6;
-  border: 2px solid blue;
+  background-color: #C14543;
+  border: 1px solid black;
 	text-align: center;
 	width: 30%;
   margin-bottom: 0;
@@ -56,9 +59,9 @@ section {
 	}
 
 #dish3{
-  background-color: #ABEBC6;
+  background-color: #E5D198;
   padding: 5px;
-	border: 2px solid blue;
+	border: 1px solid black;
 	text-align: center;
 	width: 30%;
   margin-bottom: 0;
